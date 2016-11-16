@@ -15,6 +15,7 @@
 		C7099B151DDB0A42002BC985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7099B131DDB0A42002BC985 /* LaunchScreen.storyboard */; };
 		C7099B201DDB0A42002BC985 /* TouchIDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7099B1F1DDB0A42002BC985 /* TouchIDTestTests.m */; };
 		C7099B2B1DDB0A42002BC985 /* TouchIDTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7099B2A1DDB0A42002BC985 /* TouchIDTestUITests.m */; };
+		C71D6A4A1DDC231A002CE5E0 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D6A491DDC231A002CE5E0 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C7099B261DDB0A42002BC985 /* TouchIDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7099B2A1DDB0A42002BC985 /* TouchIDTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDTestUITests.m; sourceTree = "<group>"; };
 		C7099B2C1DDB0A42002BC985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71D6A481DDC231A002CE5E0 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C71D6A491DDC231A002CE5E0 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		C7099B041DDB0A41002BC985 /* TouchIDTest */ = {
 			isa = PBXGroup;
 			children = (
+				C71D6A481DDC231A002CE5E0 /* UIView+Extension.h */,
+				C71D6A491DDC231A002CE5E0 /* UIView+Extension.m */,
 				C7099B081DDB0A41002BC985 /* AppDelegate.h */,
 				C7099B091DDB0A41002BC985 /* AppDelegate.m */,
 				C7099B0B1DDB0A41002BC985 /* ViewController.h */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71D6A4A1DDC231A002CE5E0 /* UIView+Extension.m in Sources */,
 				C7099B0D1DDB0A41002BC985 /* ViewController.m in Sources */,
 				C7099B0A1DDB0A41002BC985 /* AppDelegate.m in Sources */,
 				C7099B071DDB0A41002BC985 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				C7099B311DDB0A42002BC985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7099B321DDB0A42002BC985 /* Build configuration list for PBXNativeTarget "TouchIDTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				C7099B341DDB0A42002BC985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7099B351DDB0A42002BC985 /* Build configuration list for PBXNativeTarget "TouchIDTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				C7099B371DDB0A42002BC985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
